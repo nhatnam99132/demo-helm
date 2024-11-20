@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  hello:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-11-20T18:22:59.5481684+07:00"
+    description: A Helm chart for Hello World application
+    digest: fbb0d9c653b4ad7b710ba8758873accbb4fb13bee7a2da7c1d0e84ade7bdd9f2
+    name: hello
+    type: application
+    urls:
+    - https://nhatnam99132.github.io/demo-helm/hello-0.1.0.tgz
+    version: 0.1.0
+  myapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-20T18:22:59.5493229+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 3296cf1193cda928f3a6b43f767d801841218091e767dcf13f74e08aa4c3549e
+    name: myapp
+    type: application
+    urls:
+    - https://nhatnam99132.github.io/demo-helm/myapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-20T18:22:59.1900892+07:00"
