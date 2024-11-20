@@ -3,7 +3,7 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-20T18:22:59.5481684+07:00"
+    created: "2024-11-20T18:52:22.4797442+07:00"
     description: A Helm chart for Hello World application
     digest: fbb0d9c653b4ad7b710ba8758873accbb4fb13bee7a2da7c1d0e84ade7bdd9f2
     name: hello
@@ -14,7 +14,7 @@ entries:
   myapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-20T18:22:59.5493229+07:00"
+    created: "2024-11-20T18:52:22.5031804+07:00"
     description: A Helm chart for Kubernetes
     digest: 3296cf1193cda928f3a6b43f767d801841218091e767dcf13f74e08aa4c3549e
     name: myapp
@@ -22,4 +22,49 @@ entries:
     urls:
     - https://nhatnam99132.github.io/demo-helm/myapp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-20T18:22:59.1900892+07:00"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-20T18:52:22.515187+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 3296cf1193cda928f3a6b43f767d801841218091e767dcf13f74e08aa4c3549e
+    name: myapp
+    type: application
+    urls:
+    - https://nhatnam99132.github.io/demo-helm/demo-helm/myapp-0.1.0.tgz
+    version: 0.1.0
+  nginx-be:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-20T18:52:22.5141166+07:00"
+    dependencies:
+    - name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.2.5
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.0
+    description: A Helm chart for Kubernetes
+    digest: 7120508c7acb0ed78b41b906f28e82bfabe9132ff6b5e88beaf265c1344ecbb9
+    name: nginx-be
+    type: application
+    urls:
+    - https://nhatnam99132.github.io/demo-helm/nginx-be-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-20T18:52:22.5273223+07:00"
+    dependencies:
+    - name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.2.5
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.0
+    description: A Helm chart for Kubernetes
+    digest: dc6df9ad201bf6d03a79c4a351cb4e8ee3513993a2928202f9dfa3d0179458d1
+    name: nginx-be
+    type: application
+    urls:
+    - https://nhatnam99132.github.io/demo-helm/demo-helm/nginx-be-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-20T18:52:22.478129+07:00"
